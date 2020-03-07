@@ -1,0 +1,254 @@
+body {
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.2)), url("./images/backgroundlake_test.jpg") fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'EB Garamond', serif;
+    background-repeat: no-repeat;
+}
+
+.item {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.smallerImg {
+  height: auto;
+  width: 20%;
+}
+
+.rotateimg90 {
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  /* Standard syntax */
+}
+
+#navbarlogo {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar {
+    border-bottom: 1.5px solid white;
+    background-color: rgb(52, 49, 94, .9);
+}
+
+.navbar a,
+form {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    background-color: lightslategray;
+}
+#ourStory{
+    /* margin-top: 5%; */
+    color: white;
+}
+
+.intro{
+  text-indent: 3%;
+}
+
+.heading{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
+}
+/*#famelyImage{
+  background-image: url(./images/famileyImage.jpg);
+  width: 300px;
+  height: 300px;
+}*/
+article .familyImage{
+   width: 40%; float: left; padding-right: 3%; padding-bottom: 10px;
+ }
+
+ .Board_pict{
+   width: 20%;
+   height: auto;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+ }
+
+#Administration, #Board, #Story {
+  text-align: center;
+}
+
+/* .familyImage{
+    width: 360px;
+    height: 60%;
+} */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  .icon-bar a:hover {
+      background-color: #000;
+  }
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .instagram {
+      background: rgb(197, 70, 197);
+      color: white;
+  }
+
+  .wordpress {
+    background: #3B5998;
+    color: white;
+  }
+
+ .icon {
+      border-radius: 50%;
+      border: 1.5px solid white;
+  }
+
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: rgb(52, 49, 94, .8);
+    border-top: 1.5px solid white;
+    color: white;
+
+}
+.videoContent{
+  font-size: 26px;
+  font-style: italic;
+}
+#home{
+  margin-top: 3%;
+}
+
+
+.progpic{
+   width: 30%;
+   height: auto;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+   ;
+ }
+ .skillprogpic{
+    width: 30%;
+   height: 10%;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+   ;
+ }
+ .equineprogpic{
+  width: 30%;
+   height: 8%;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 10px;
+   ;
+   margin-bottom: 5%;
+ }
+ #myVideo{
+  border-color: rgb(52, 49, 94, .9);
+ }
+ #who-we-serve{
+    font-family: 'EB Garamond', serif;
+ }
+
+.marginTop {
+    margin-top: 7%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 768px){
+    .navlogo-white.png {visibility: hidden;}
+    .adjustWhenSmall {
+      width: 50%;
+      margin-top: 50px;
+      height: auto;
+    }
+    .hideWhenSmall {
+      display: none;
+    }
+    .icon-bar {visibility: hidden;}
+    body {background-image: linear-gradient(rgba(52, 49, 94,.4), rgba(52, 49, 94,.4)), url(./images/mBackground.png);}
+}
+
+@media screen and (min-width: 1024px){
+    .donateButton {visibility: hidden;}
+}
+
+@media only screen and (max-width: 28em) {
+article img {float: none; padding-bottom: 5px; max-width: 100%;}
+};
